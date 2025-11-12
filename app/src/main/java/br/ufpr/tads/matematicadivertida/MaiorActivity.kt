@@ -111,6 +111,8 @@ class MaiorActivity : AppCompatActivity() {
             adb.setPositiveButton("Ok!", null)
             adb.show()
         }
+
+        answerNumber.text.clear()
     }
 
     fun endGame() {
@@ -143,18 +145,18 @@ class MaiorActivity : AppCompatActivity() {
                     var n1 =  getRandomDigit()
                     num1.text = n1.toString()
                     num1.setTextColor(colorMap.getValue(n1))
-                    num1.setShadowLayer(45.0f, 0.0f, 0.0f,colorMap.getValue(n1))
+                    num1.setShadowLayer(50.0f, 0.0f, 0.0f,colorMap.getValue(n1))
                 }
                 if (i < 60) {
                     var n2 =  getRandomDigit()
                     num2.text = n2.toString()
                     num2.setTextColor(colorMap.getValue(n2))
-                    num2.setShadowLayer(45.0f, 0.0f, 0.0f,colorMap.getValue(n2))
+                    num2.setShadowLayer(50.0f, 0.0f, 0.0f,colorMap.getValue(n2))
                 }
                 var n3 =  getRandomDigit()
                 num3.text = n3.toString()
                 num3.setTextColor(colorMap.getValue(n3))
-                num3.setShadowLayer(45.0f, 0.0f, 0.0f,colorMap.getValue(n3))
+                num3.setShadowLayer(50.0f, 0.0f, 0.0f,colorMap.getValue(n3))
             }
 
             unlockInput()
