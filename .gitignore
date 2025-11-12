@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+.gradle/
+.gradle
+build/
+
+.idea/
+local.properties
+
+Thumbs.db
+
+config.properties
